@@ -44,13 +44,13 @@ The free endpoints are rate-limited to 10 calls/min per IP. For production or co
 
 ## Where they're listed
 
-- [Official MCP Registry](https://registry.modelcontextprotocol.io) (`io.github.fujimura-ui/*`)
-- [Glama](https://glama.ai/mcp/servers/fujimura-ui/japan-subsidy-search-mcp) · [mcp.so](https://mcp.so/servers/japan-subsidy-search-mcp) · Apify Store
+- [Official MCP Registry](https://registry.modelcontextprotocol.io) (`io.github.easakura/*`)
+- [Glama](https://glama.ai/mcp/servers/easakura/japan-subsidy-search-mcp) · [mcp.so](https://mcp.so/servers/japan-subsidy-search-mcp) · Apify Store
 
 ## Source
 
 Implementation repos (TypeScript, Cloudflare Workers + MCP SDK, MIT):
-[japan-subsidy-search-mcp](https://github.com/fujimura-ui/japan-subsidy-search-mcp) · [japan-law-search-mcp](https://github.com/fujimura-ui/japan-law-search-mcp) · [japan-parliament-search-mcp](https://github.com/fujimura-ui/japan-parliament-search-mcp) · [japan-company-leads-mcp](https://github.com/fujimura-ui/japan-company-leads-mcp)
+[japan-subsidy-search-mcp](https://github.com/easakura/japan-subsidy-search-mcp) · [japan-law-search-mcp](https://github.com/easakura/japan-law-search-mcp) · [japan-parliament-search-mcp](https://github.com/easakura/japan-parliament-search-mcp) · [japan-company-leads-mcp](https://github.com/easakura/japan-company-leads-mcp)
 
 ## Notes on data
 
