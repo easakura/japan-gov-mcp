@@ -18,22 +18,22 @@ Example (Claude, with the subsidy server connected):
 
 | Server | What it does | Data source | Endpoint |
 |---|---|---|---|
-| **Japan Subsidy Search** | Search open government subsidies & grants: deadlines, amounts, eligibility | jGrants (Digital Agency) | `https://hojokin-mcp.plus-synergy.workers.dev/mcp` |
-| **Japan Law Search** | Full-text search across all ~10,000 current laws, down to exact articles | e-Gov Laws API | `https://horei-mcp.plus-synergy.workers.dev/mcp` |
-| **Japan Parliament Search** | Search National Diet records, 1947–present | National Diet Library | `https://kokkai-mcp.plus-synergy.workers.dev/mcp` |
-| **Japan Company Leads Finder** | Search 1M+ companies by size, capital, location, subsidy history | gBizINFO (METI) | `https://gbiz-leads-mcp.plus-synergy.workers.dev/mcp` |
-| **Japan Weather & Alerts** | Forecasts, warnings, earthquake info | Japan Meteorological Agency | `https://tenki-mcp.plus-synergy.workers.dev/mcp` |
-| **Japan Address & Geocoding** | Address normalization, postal codes, coordinates | GSI & official registries | `https://jusho-mcp.plus-synergy.workers.dev/mcp` |
-| **Japan Corporate Filings** | Securities reports & disclosure filings | EDINET (FSA) | `https://edinet-mcp.plus-synergy.workers.dev/mcp` |
-| **Japan Official Statistics** | Population, economy, labor statistics | e-Stat | `https://estat-mcp.plus-synergy.workers.dev/mcp` |
-| **Japan Real Estate Prices** | Actual transaction prices & official land values | MLIT Real Estate Library | `https://fudousan-mcp.plus-synergy.workers.dev/mcp` |
+| **Japan Subsidy Search** | Search open government subsidies & grants: deadlines, amounts, eligibility | jGrants (Digital Agency) | `https://hojokin-mcp.easakura.workers.dev/mcp` |
+| **Japan Law Search** | Full-text search across all ~10,000 current laws, down to exact articles | e-Gov Laws API | `https://horei-mcp.easakura.workers.dev/mcp` |
+| **Japan Parliament Search** | Search National Diet records, 1947–present | National Diet Library | `https://kokkai-mcp.easakura.workers.dev/mcp` |
+| **Japan Company Leads Finder** | Search 1M+ companies by size, capital, location, subsidy history | gBizINFO (METI) | `https://gbiz-leads-mcp.easakura.workers.dev/mcp` |
+| **Japan Weather & Alerts** | Forecasts, warnings, earthquake info | Japan Meteorological Agency | `https://tenki-mcp.easakura.workers.dev/mcp` |
+| **Japan Address & Geocoding** | Address normalization, postal codes, coordinates | GSI & official registries | `https://jusho-mcp.easakura.workers.dev/mcp` |
+| **Japan Corporate Filings** | Securities reports & disclosure filings | EDINET (FSA) | `https://edinet-mcp.easakura.workers.dev/mcp` |
+| **Japan Official Statistics** | Population, economy, labor statistics | e-Stat | `https://estat-mcp.easakura.workers.dev/mcp` |
+| **Japan Real Estate Prices** | Actual transaction prices & official land values | MLIT Real Estate Library | `https://fudousan-mcp.easakura.workers.dev/mcp` |
 
 ## Quick start
 
 **Claude Code** (one command):
 
 ```bash
-claude mcp add --transport http japan-subsidy https://hojokin-mcp.plus-synergy.workers.dev/mcp
+claude mcp add --transport http japan-subsidy https://hojokin-mcp.easakura.workers.dev/mcp
 ```
 
 **Claude Desktop**: Settings → Connectors → Add custom connector → paste an endpoint URL.
